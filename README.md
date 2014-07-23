@@ -1,28 +1,13 @@
 Upload File Behavior for Yii2
 ========================
-
 Behavior for simplifies file upload for Yii2.
 
 Installation
 ------------
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either run
-
-```
-php composer.phar require "himiklab/yii2-upload-file-behavior" "*"
-```
-or add
-
-```json
-"himiklab/yii2-upload-file-behavior" : "*"
-```
-
-to the require section of your application's `composer.json` file.
+Copy `UploadFileBehavior.php` to your `app/components` folder.
 
 Usage
 -----
-
 In view:
 
 ```php
@@ -46,7 +31,7 @@ use yii\widgets\ActiveForm;
 In AR model:
 
 ```php
-use himiklab\uploadfile\UploadFileBehavior;
+use app\components\UploadFileBehavior;
 
 public function behaviors()
 {

@@ -5,7 +5,7 @@
  * @license http://opensource.org/licenses/MIT
  */
 
-namespace himiklab\uploadfile;
+namespace app\components;
 
 use Yii;
 use yii\base\Behavior;
@@ -33,7 +33,6 @@ use yii\db\ActiveRecord;
  * ```
  *
  * @author HimikLab
- * @package himiklab\uploadfile
  */
 class UploadFileBehavior extends Behavior
 {
